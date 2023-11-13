@@ -16,7 +16,8 @@ def main():
             player = Player(player_dict)
             players.append(player)
 
-    print("Oliot:")
+    print("Players from FIN")
+    players.sort(key=lambda player: player.total_points(), reverse=True)
 
     for player in players:
         print(player)
