@@ -4,6 +4,7 @@ class Player:
         self.team = dict['team']
         self.goals = dict['assists']
         self.assists = dict['goals']
+        self.nationality = dict['nationality']
     
     def total_points(self):
         return self.goals + self.assists
