@@ -2,7 +2,7 @@ import unittest
 from unittest.mock import Mock, ANY
 from kauppa import Kauppa
 from viitegeneraattori import Viitegeneraattori
-
+#
 
 class TestKauppa(unittest.TestCase):
     def setUp(self):
